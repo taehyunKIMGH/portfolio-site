@@ -23,7 +23,7 @@ function deleteTxt(){
     if(currentTxt.length !== 0){
         setTimeout(deleteTxt, Math.floor(Math.random() * 100));
     }else{
-        index = (index + 1) % txtArr.length;
+        index = (index + 1) % txtArr.length; 
         currentTxt  = txtArr[index].split(" ");
         writeTxt();
     }
