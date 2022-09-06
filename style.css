@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&family=Varela+Round&display=swap');
 
-body{
-    margin-left: auto;
-    margin-right: auto;
-}
-
 *{
     margin: 0;
     padding: 0;
@@ -21,7 +16,7 @@ li{
 }
 
 .container{
-    width: 1140px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -71,7 +66,7 @@ main{
     height: 100vh;
     color: white;
     background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("https://media.gcflearnfree.org/content/5e31ca08bc7eff08e4063776_01_29_2020/ProgrammingIllustration.png") center center;
-    background-size: contain;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -256,7 +251,7 @@ section .do-me .do-inner:hover i{
 
 .bg{
     background: url('https://dt40dm21pj8em.cloudfront.net/uploads/froala/file/3822/%EA%B0%9C%EB%B0%9C%EC%9E%90%20%EC%B7%A8%EC%97%851.jpg') center center;
-    background-size: contain;
+    background-size: cover;
     background-attachment: fixed;
     height: 450px;
 }
