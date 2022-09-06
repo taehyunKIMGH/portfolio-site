@@ -44,3 +44,17 @@ function scrollCheck(){
     }
 }
 
+const aniamtionMove = function(selector){
+    const targetEl = document.querySelector(selector);
+    const browerScrollY = window.pageYOffset;
+    const targetScorllY = targetEl.getBoundingClientRect().top + browerScrollY;
+    window.scrollTo({top : targetScorllY, behavior : 'smooth'});
+}
+
+const scollMoveEl = document.querySelectorAll("[data-animation-scroll='true']");
+for(let i =0; i < scollMoveEl.length; i++){
+    scollMoveEl[i].addEventListener('click', function(e){
+        const target = this.dataset.target;
+        aniamtionMove(target);
+    });
+}
