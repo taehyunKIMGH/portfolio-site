@@ -63,6 +63,7 @@ header nav ul li button{
 
 main{
     width: 100%;
+    padding: 1rem; 
     height: 100vh;
     color: white;
     background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("https://media.gcflearnfree.org/content/5e31ca08bc7eff08e4063776_01_29_2020/ProgrammingIllustration.png") center center;
