@@ -255,7 +255,7 @@ section .do-me .do-inner:hover i{
 
 .bg{
     background: url('https://dt40dm21pj8em.cloudfront.net/uploads/froala/file/3822/%EA%B0%9C%EB%B0%9C%EC%9E%90%20%EC%B7%A8%EC%97%851.jpg') center center;
-    background-size: 100%;
+    background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
     height: 450px;
@@ -384,7 +384,7 @@ section.contact .contact-me .right button{
         font-size: 14px;
     }
     main .container{
-        width: 768px;
+        width: 100%;
     }
     section .portfolio-me .portfolio-inner{
         width: 100%;
@@ -396,10 +396,10 @@ section.contact .contact-me .right button{
         font-size: 13px;
     }
     main .container{
-        width: 576px;
+        width: 100%;
     }
     section .container{
-        width: 400px;
+        width: 100%;
     }
     section .do-me .do-inner{
         width: 100%;
@@ -412,10 +412,10 @@ section.contact .contact-me .right button{
         font-size: 12px;
     }
     main .container{
-        width: 400px;
+        width: 100%;
     }
     section .container{
-        width: 360px;
+        width: 100%;
     }
 }
 
@@ -424,10 +424,10 @@ section.contact .contact-me .right button{
         font-size: 11px;
     }
     main .container{
-        width: 320px;
+        width: 100%;
     }
     section .container{
-        width: 320px;
+        width: 100%;
     }
     main h4{
         font-size:1.5rem;
@@ -442,7 +442,7 @@ section.contact .contact-me .right button{
         width: 992px;
     }
     section .container{
-        width: 600px;
+        width: 100%;
     }
     section .about-self .left{
         width: 100%;
