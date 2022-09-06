@@ -6,7 +6,6 @@
     box-sizing: border-box;
     margin-left: auto;
     margin-right: auto;
-    text-align : center;
 }
 
 a, a:link, a :visited{
@@ -256,7 +255,7 @@ section .do-me .do-inner:hover i{
 
 .bg{
     background: url('https://dt40dm21pj8em.cloudfront.net/uploads/froala/file/3822/%EA%B0%9C%EB%B0%9C%EC%9E%90%20%EC%B7%A8%EC%97%851.jpg') center center;
-    background-size: cover;
+    background-size: 100%;
     background-attachment: fixed;
     background-repeat: no-repeat;
     height: 450px;
