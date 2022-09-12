@@ -296,6 +296,10 @@ section.portfolio .portfolio-inner h3{
     font-size: 1.75rem;
 }
 
+section.portfolio a{
+    font-size: 2rem;
+}
+
 section.contact .contact-me::after{
     content: " ";
     display: block;
